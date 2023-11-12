@@ -1,8 +1,9 @@
-streamlit
-nltk
-nltk.stem.porter
-pickle
+streamlit==1.28.1
 string
 nltk.corpus
-ast
+nltk==3.8.1
+nltk.stem.porter
+pickle
+pkg_resources
 os
+ast
