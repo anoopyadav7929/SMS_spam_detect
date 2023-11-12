@@ -10,6 +10,13 @@ ps = PorterStemmer()
 tfidf = pickle.load(open("vectorizer.pkl", "rb"))
 model = pickle.load(open("model.pkl", "rb"))
 
+@st.cache(allow_output_mutation=True)
+def download_nltk_resources():
+    nltk.download('punkt')
+    nltk.download('stopwords')
+
+# Download NLTK resources only once
+download_nltk_resources()
 
 def transform_text(text):
     text = text.lower()
