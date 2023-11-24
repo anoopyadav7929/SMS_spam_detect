@@ -42,7 +42,7 @@ If you prefer to run the project manually, follow these steps:
 
 - Install the required dependencies by command:- pip install -r requirements.txt
 
-- Run the Streamlit app command:- streamlit run app.py
+- Run the file app.py and enter streamlit command:- streamlit run app.py
 
 ## Acknowledgments
 Thanks to Kaggle for the dataset.
